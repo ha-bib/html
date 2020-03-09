@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>    <link rel="shortcut icon" href="code.png" /></head>
+<title>Membuat Heading</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Habib.style.css">
+<link rel="icon" href="src/code.png">
+<body>
+ 
+<div class="sidebar bar-block card animate-left" style="display:block;" id="mySidebar">
+  <button class="bar-item button large"
+  onclick="habib_close()">Daftar Isi &times;</button>
+  <a href="../index.html" class="bar-item button border-bottom">Halaman Utama</a>
+ <a href="01_M3119044_heading.html" class="bar-item button border-bottom">Heading</a>
+  <a href="02_M3119044_paragraf.html" class="bar-item button border-bottom">Paragraf</a>
+  <a href="03_M3119044_baris.html" class="bar-item button border-bottom">Baris Kosong</a>
+  <a href="04_M3119044_komentar.html" class="bar-item button border-bottom">Komentar</a>
+  <a href="05_M3119044_label.html" class="bar-item button border-bottom">Label Elemen</a>
+  <a href="06_M3119044_formatTeks.html" class="bar-item button border-bottom">Bold dan Italic</a>
+  <a href="07_M3119044_monospace.html" class="bar-item button border-bottom">Monospaced Font</a>
+  <a href="08_M3119044_preformatteks.html" class="bar-item button border-bottom">Preformated Teks</a>
+  <a href="09_M3119044_kutipan.html" class="bar-item button border-bottom">Kutipan ( Quotes)</a>
+  <a href="10_M3119044_pangkat.html" class="bar-item button border-bottom">Superscript dan Subscript</a>
+  <a href="11_M3119044_perubahanteks.html" class="bar-item button border-bottom">Perubahan Teks</a>
+  <a href="12_M3119044_singkatan_akronim.html" class="bar-item button border-bottom">Singkatan</a>
+  <a href="13_M3119044_image.html" class="bar-item button border-bottom">Gambar</a>
+</div>
+<div id="main">
+
+<div class="teal">
+  <button id="openNav" class="button teal xlarge" onclick="habib_open()">&#9776;</button>
+  <div class="container">
+    <h1>Membuat Heading</h1>
+  </div>
+</div>
+
+<div class="container">
+
+
+<p > <font size="5" color="#009900" align="justify"> 
+Heading atau lebih tepatnya TAG Heading merupakan TAG khusus yang disediakan oleh HTML untuk membuat sebuah judul pada teks dalam sebuah halaman web. </p></font><br/>
+
+  <h2><font size="6" color="#009900" align="justify"><strong>Mengenal Heading HTML</strong></h2>  </font>
+
+<p>
+  TAG Heading secara default ditampilkan oleh browser dengan ukuran lebih besar dan lebih tebal (bold) dari teks biasa. Tidak hanya sekedar untuk memberikan penampilan yang lebih tegas dan penekanan, TAG Heading juga sangat penting dalam kaitannya dengan teknik Search Engine Optimization (SEO).
+</p>
+
+<p>
+  Membuat Heading dari yang paling besar ke yang terkecil &lt;h1&gt; - &lt;h6&gt;,  Dalam  dokumen  HTML terdapat  heading  sampai  dengan  kedalaman  6  level. Semakin  besar  levelnya,  maka ukuran font yang tampil akan semakin kecil. Judul heading dituliskan di dalam blok body  serta diapit dengan tag &lt;hn&gt; dan &lt;/hn&gt;, dengan n=1, 2, 3, ... , 6. 
+</p> <br/>
+
+  <h2><font size="6" color="#009900" align="justify"><strong>Contoh Penggunaan</strong></h2>  </font>
+
+  <h1>Heading 1</h1>
+    Tampilan Heading 1
+
+
+  <h2>Heading 2</h2>
+    Tampilan Heading 2
+  <h3>Heading 3</h3>
+    Tampilan Heading 3
+  <h4>Heading 4</h4>
+    Tampilan Heading 4
+  <h5>Heading 5</h5>
+    Tampilan Heading 5
+  <h6>Heading 6</h6>  
+    Tampilan Heading 6 <br/>
+  <h7>Heading 7</h7> <br/>
+  Tampilan Heading 7 dan seterusnya akan seperti ini
+<br/><br/>
+
+<h2><font size="6" color="#009900" align="justify"><strong>Source Code</strong></h2>  </font>
+
+
+<!--WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! -->
+
+
+<textarea cols="1000" style="max-width:100%;" rows="10" readonly color="#008000">
+   <h1>Heading 1</h1>
+    Tampilan Heading 1
+  <h2>Heading 2</h2>
+    Tampilan Heading 2
+  <h3>Heading 3</h3>
+    Tampilan Heading 3
+  <h4>Heading 4</h4>
+    Tampilan Heading 4
+  <h5>Heading 5</h5>
+    Tampilan Heading 5
+  <h6>Heading 6</h6>  
+    Tampilan Heading 6 <br/>
+  <h7>Heading 7</h7> <br/>
+  Tampilan Heading 7 dan seterusnya akan seperti ini
+ </textarea>
+
+<!--WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! -->
+
+<h2><font size="6" color="#009900" align="justify"><strong>Kesimpulan</strong></h2>  </font>
+<p align="justify">
+  Dari percobaan diatas dapat simpulkan bahwa tag heading hanya berlaku untuk h1 sampai h6 tetapi tidak berlaku untuk tag h7 sampai dengan h10. Pada percobaan tag heading h7 sampai dengan h10 terdeteksi sebagai teks bukan heading. Semakin kecil indeks pada heading maka semakin besar ukuran fontnya seperi h1 lebih besar dari h2 dan seterusnya, heading memiliki tipe font yang berbeda dengan teks biasa.
+</p>
+
+  <br/>
+<div class="teal">
+  <div class="container">
+    <h1>Habib - M3119044</h1>
+  </div>
+</div>
+
+
+
+
+
+<script>
+function habib_open() {
+  document.getElementById("main").style.marginLeft = "19%";
+  document.getElementById("mySidebar").style.width = "19%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+function habib_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+</script>
+
+</div>
+
+</body>
+</html>

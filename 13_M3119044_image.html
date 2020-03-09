@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html><head>    <link rel="shortcut icon" href="code.png" /></head>
+<title>Menampilkan Gambar & Mengatur Gambar</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="habib.style.css">
+<body>
+
+<div class="sidebar bar-block card animate-left" style="display:block;" id="mySidebar">
+  <button class="bar-item button large"
+  onclick="habib_close()">Daftar Isi &times;</button>
+   <a href="../index.html" class="bar-item button border-bottom">Halaman Utama</a>
+  <a href="01_M3119044_heading.html" class="bar-item button border-bottom">Heading</a>
+  <a href="02_M3119044_paragraf.html" class="bar-item button border-bottom">Paragraf</a>
+  <a href="03_M3119044_baris.html" class="bar-item button border-bottom">Baris Kosong</a>
+  <a href="04_M3119044_komentar.html" class="bar-item button border-bottom">Komentar</a>
+  <a href="05_M3119044_label.html" class="bar-item button border-bottom">Label Elemen</a>
+  <a href="06_M3119044_formatTeks.html" class="bar-item button border-bottom">Bold dan Italic</a>
+  <a href="07_M3119044_monospace.html" class="bar-item button border-bottom">Monospaced Font</a>
+  <a href="08_M3119044_preformatteks.html" class="bar-item button border-bottom">Preformated Teks</a>
+  <a href="09_M3119044_kutipan.html" class="bar-item button border-bottom">Kutipan ( Quotes)</a>
+  <a href="10_M3119044_pangkat.html" class="bar-item button border-bottom">Superscript dan Subscript</a>
+  <a href="11_M3119044_perubahanteks.html" class="bar-item button border-bottom">Perubahan Teks</a>
+  <a href="12_M3119044_singkatan_akronim.html" class="bar-item button border-bottom">Singkatan</a>
+  <a href="13_M3119044_image.html" class="bar-item button border-bottom">Gambar</a>
+</div>
+
+<div id="main">
+
+<div class="teal">
+  <button id="openNav" class="button teal xlarge" onclick="habib_open()">&#9776;</button>
+  <div class="container">
+    <h1>Menampilkan Gambar & Mengatur Gambar</h1>
+  </div>
+</div>
+ 
+<div class="container">
+
+
+
+<p > <font size="5" color="#009900" align="justify">
+  Tag Image digunakan untuk menampilkan gambar kedalam halaman web, menggunakan &lt;img&gt;.
+</p> 
+
+  <h2><strong>Mengenal Gambar HTML</strong></h2>    </font>
+    <p align="justify">
+      HTML menyediakan sebuah tag yang khusus untuk menampilkan gambar atau image. tag HTML yang berfungsi untuk menampilkan gambar adalah tag &lt;img&gt;.  Tag &lt;img&gt; di gunakan untuk menampilkan gambar atau image dengan berbagai ekstensi, bisa itu jpg, png, gif, bmp, ico dan lain-lain.
+  </p>
+  <p align="justify">
+      Untuk menampilkan Gambar pada HTML bisa menggunakan tag &lt;img&gt;. kemudian masukkan atribut "src="" pada tag &lt;img&gt;. Atribut src berguna untuk menghubungkan dengan file gambar, jadi atribut src ini di gunakan untuk pemanggilan lokasi dan nama file gambar. jika file gambar terletak satu folder dengan file html yang bertugas untuk menampilkan gambar ini maka kita bisa langsung memasukkan nama file gambar yang ingin di tampilkan tersebut pada atribut src ini. tetapi jika file gambar berada pada folder yang berbeda dengan file html yang menampilkan gambar maka anda bisa menambahkan nama folder nya seperti misalnya "nama_folder/filegambar". dan jika file gambar berada di luar folder file html  yang menampilkan gambar maka anda bisa menambahkan perintah "../". </p>
+
+  <p align="justify">
+      Menampilkan Gambar dan mengatur Gambar. Menampilkan Gambar menggunakan &lt;img src=" "&gt; dan ditutup dengan &lt;/img&gt;, peletakan file foto harus satu folder dengan halaman html yang dibuat . Jika ingin mengatur ukuran gambar maka menggunakan perintah width=" " untuk lebar gambar dan tinggi gambar menggunakan height=" " . Untuk  mengatur  jarak  tepi  image  dengan  teks,  gunakanlah  atribut  hspace="x"  dan vspace="y".  Atribut  hspace  digunakan  untuk   mengatur  jarak  horizontal  antara  teks dengan tepi  image (x  dalam satuan  pixel). Sedangkan vspace  digunakan  untuk  mengatur jarak vertikal  antara  tepi image  dengan teks (y  juga  dalam  pixel). Sedangkan align=" " digunakan untuk mengatur floating image atau letak gambar di tengah ,kanan atau kiri.  Untuk  membuat  alternate  text  cukup  menambahkan  atribut  alt="alternate  text", fungsi alternate adalah menambahkan keterangan pada gambar tersebut.</p>
+    
+ <h2><font size="6" color="#009900" align="justify"><strong>Contoh Penggunaan</strong> </font> </h2> 
+<img src="img" alt="Kucing gemesh"  height="300">
+<img src="img2" alt="Kucing ngledek, mukanya ngeselin, ngajak gelud!?"  height="300">
+<img src="img3" alt="Kucing belagu"  height="300">
+  <br/>
+  <p> 
+    Html : <br/><font color="#009000">
+    &lt;img src="img" alt="Kucing gemesh"  height="300"&gt; <br/>
+    &lt;img src="img2" alt="Kucing ngledek, mukanya ngeselin, ngajak gelud!?"  height="300"&gt; <br/>
+    &lt;img src="img3" alt="Kucing belagu"  height="300"&gt;
+  </font></p>
+
+<h2><font size="6" color="#009900" align="Left"><strong>Source Code</strong>  </font></h2>
+ 
+<!--WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! -->
+
+<textarea cols="1000" style="max-width:100%;" rows="10" readonly color="#008000">
+<img src="img" alt="Kucing gemesh"  height="300">
+<img src="img2" alt="Kucing ngledek, mukanya ngeselin, ngajak gelud!?"  height="300">
+<img src="img3" alt="Kucing belagu"  height="300">
+  <br/>
+  <p> 
+    Html : <br/><font color="#009000">
+    &lt;img src="img" alt="Kucing gemesh"  height="300"&gt; <br/>
+    &lt;img src="img2" alt="Kucing ngledek, mukanya ngeselin, ngajak gelud!?"  height="300"&gt; <br/>
+    &lt;img src="img3" alt="Kucing belagu"  height="300"&gt;
+  </font></p></textarea>
+<!--WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! WARNING TEXT AREA! -->
+
+<h2><font size="6" color="#009900" align="justify"><strong>Kesimpulan</strong></h2>  </font>
+
+<p align="justify">
+ Dari percobaan tersebut dapat disimpulkan bahwa perintah Atribut src adalah singkatan dari source, merupakan atribut yang berisi alamat dari gambar yang akan ditampilkan. Dan alt digunakan untuk keterangan dari gambar jika gambar tersebut gagal ditampilkan oleh browser. Atau jika web broser telah disetting untuk tidak menampilkan gambar. Atribut ini sangat berperan penting untuk Search Engine Optimization. Karena search engine tidak bisa membaca gambar, maka atribut alt ini sebagai penggantinya. Selain itu, dengan penggunaan atribut ini maka sebenarnya kita sudah memberitahu search engine informasi atau deskripsi dari gambar itu sendiri.. Untuk mempertahankan proporsi gambar, namun tetap membuat gambar menjadi besar/kecil, cantumkan hanya salah satu atribut saja (width saja atau height saja, namun tidak keduanya). Misalkan jika kita menetapkan atribut width=300px (tanpa mencantumkan height), maka web browser akan menampilkan gambar dengan lebar 300px, dan menghitung secara otomatis tinggi gambar agar gambar tetap proporsional. dan letak gambar pada web sesuai dengan perintah atribut hspace dan align. 
+</p>
+
+<div class="teal">
+  <div class="container">
+    <h1>Habib - M3119044</h1>
+  </div>
+</div>
+
+
+
+
+<style>
+  /* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #dbdbdb; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #009000; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #00b300; 
+}
+</style>
+<script>
+
+function habib_open() {
+  document.getElementById("main").style.marginLeft = "19%";
+  document.getElementById("mySidebar").style.width = "19%";
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("openNav").style.display = 'none';
+}
+function habib_close() {
+  document.getElementById("main").style.marginLeft = "0%";
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("openNav").style.display = "inline-block";
+}
+</script>
+
+</div>
+
+</body>
+</html>
